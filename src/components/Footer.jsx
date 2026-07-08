@@ -15,9 +15,9 @@ const Footer = () => {
           >
             <div className="flex items-center gap-2 mb-3 sm:mb-4">
               <div className="w-7 sm:w-8 h-7 sm:h-8 bg-purple-500 rounded-lg flex items-center justify-center font-bold text-xs sm:text-sm">
-                A
+                Z
               </div>
-              <span className="font-bold text-sm sm:text-base">ADITDEV.ID</span>
+              <span className="font-bold text-sm sm:text-base">ZENDEV.ID</span>
             </div>
             <p className="text-gray-400 text-xs sm:text-sm">
               Building high-performance web apps, bots, and scrapers.
@@ -32,9 +32,9 @@ const Footer = () => {
           >
             <h4 className="font-bold mb-3 sm:mb-4 text-sm sm:text-base">Navigation</h4>
             <ul className="space-y-2 text-gray-400 text-xs sm:text-sm">
-              <li><a href="#home" className="hover:text-white smooth-transition">Home</a></li>
-              <li><a href="#store" className="hover:text-white smooth-transition">Store</a></li>
-              <li><a href="#contact" className="hover:text-white smooth-transition">Contact</a></li>
+              <li><a href="/" className="hover:text-white smooth-transition">Home</a></li>
+              <li><a href="/#store" className="hover:text-white smooth-transition">Store</a></li>
+              <li><a href="/#contact" className="hover:text-white smooth-transition">Contact</a></li>
             </ul>
           </motion.div>
 
@@ -46,9 +46,9 @@ const Footer = () => {
           >
             <h4 className="font-bold mb-3 sm:mb-4 text-sm sm:text-base">Social</h4>
             <ul className="space-y-2 text-gray-400 text-xs sm:text-sm">
-              <li><a href="#" className="hover:text-white smooth-transition">GitHub</a></li>
-              <li><a href="#" className="hover:text-white smooth-transition">Facebook</a></li>
-              <li><a href="#" className="hover:text-white smooth-transition">WhatsApp</a></li>
+              <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white smooth-transition">GitHub</a></li>
+              <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white smooth-transition">Facebook</a></li>
+              <li><a href="https://wa.me/62819194644444" target="_blank" rel="noopener noreferrer" className="hover:text-white smooth-transition">WhatsApp</a></li>
             </ul>
           </motion.div>
 
@@ -60,9 +60,9 @@ const Footer = () => {
           >
             <h4 className="font-bold mb-3 sm:mb-4 text-sm sm:text-base">Legal</h4>
             <ul className="space-y-2 text-gray-400 text-xs sm:text-sm">
-              <li><a href="#" className="hover:text-white smooth-transition">Privacy</a></li>
-              <li><a href="#" className="hover:text-white smooth-transition">Terms</a></li>
-              <li><a href="#" className="hover:text-white smooth-transition">Sitemap</a></li>
+              <li><a href="/privacy" className="hover:text-white smooth-transition">Privacy</a></li>
+              <li><a href="/terms" className="hover:text-white smooth-transition">Terms</a></li>
+              <li><a href="/sitemap" className="hover:text-white smooth-transition">Sitemap</a></li>
             </ul>
           </motion.div>
         </div>
@@ -72,18 +72,18 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-xs sm:text-sm gap-4">
-          <p>&copy; {currentYear} ADITDEV.ID — ALL RIGHTS RESERVED</p>
+          <p>&copy; {currentYear} ZENDEV.ID — ALL RIGHTS RESERVED</p>
           <div className="flex gap-4 text-lg sm:text-xl">
-            <a href="#" className="hover:text-purple-500 smooth-transition">🐙</a>
-            <a href="#" className="hover:text-purple-500 smooth-transition">👤</a>
-            <a href="#" className="hover:text-purple-500 smooth-transition">✉️</a>
-            <a href="#" className="hover:text-purple-500 smooth-transition">💬</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-500 smooth-transition">🐙</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-500 smooth-transition">👤</a>
+            <a href="mailto:business@zendev.id" className="hover:text-purple-500 smooth-transition">✉️</a>
+            <a href="https://wa.me/62819194644444" target="_blank" rel="noopener noreferrer" className="hover:text-purple-500 smooth-transition">💬</a>
           </div>
         </div>
 
         {/* Attribution */}
         <div className="text-center mt-6 sm:mt-8 text-gray-500 text-xs">
-          <p>MADE WITH 💜 BY ADITAMA</p>
+          <p>MADE WITH 💜 BY ZENDEV</p>
         </div>
       </div>
     </footer>

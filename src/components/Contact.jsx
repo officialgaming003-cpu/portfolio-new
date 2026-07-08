@@ -2,14 +2,14 @@ import { motion } from 'framer-motion'
 
 const Contact = () => {
   const contacts = [
-    { icon: '✉️', title: 'EMAIL', value: 'business@aditdev.id', link: 'mailto:business@aditdev.id' },
+    { icon: '✉️', title: 'EMAIL', value: 'business@zendev.id', link: 'mailto:business@zendev.id' },
     { icon: '💬', title: 'WHATSAPP', value: '+62819194644444', link: 'https://wa.me/62819194644444' },
-    { icon: '🐙', title: 'GITHUB', value: '@aditdev', link: 'https://github.com' },
-    { icon: '👤', title: 'FACEBOOK', value: '@aditdev', link: 'https://facebook.com' }
+    { icon: '🐙', title: 'GITHUB', value: '@zendev', link: 'https://github.com/zendev' },
+    { icon: '👤', title: 'FACEBOOK', value: '@zendev', link: 'https://facebook.com/zendev' }
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-pink-50 to-white">
+    <section id="contact" className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-pink-50 to-white">
       <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-8">
         {/* Section Badge */}
         <motion.div
@@ -41,7 +41,7 @@ const Contact = () => {
             <motion.a
               key={contact.title}
               href={contact.link}
-              target="_blank"
+              target={contact.link.startsWith('mailto:') ? undefined : '_blank'}
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
