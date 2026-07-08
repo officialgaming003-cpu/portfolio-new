@@ -11,7 +11,7 @@ const AdminPanel = () => {
   const [isPasswordCorrect, setIsPasswordCorrect] = useState(false)
   const [passwordInput, setPasswordInput] = useState('')
 
-  const ADMIN_PASSWORD = 'admin123' // Ganti dengan password yang lebih aman
+  const ADMIN_PASSWORD = 'admin123'
 
   const handlePasswordSubmit = () => {
     if (passwordInput === ADMIN_PASSWORD) {
