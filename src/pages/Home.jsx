@@ -5,10 +5,11 @@ import Workflow from '../components/Workflow'
 import Services from '../components/Services'
 import Marketplace from '../components/Marketplace'
 import Contact from '../components/Contact'
+import AdminTrigger from '../components/AdminTrigger'
 
 const Home = () => {
   return (
-    <div className="pt-14 sm:pt-16 md:pt-20">
+    <div>
       <Hero />
       <Stats />
       <About />
@@ -16,6 +17,7 @@ const Home = () => {
       <Services />
       <Marketplace />
       <Contact />
+      <AdminTrigger />
     </div>
   )
 }

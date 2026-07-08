@@ -5,7 +5,7 @@ const Hero = () => {
   const { content } = useAdmin()
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20 sm:pt-24 md:pt-32 pb-10 sm:pb-16 md:pb-20 bg-white text-gray-900">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-14 sm:pt-16 md:pt-20 pb-10 sm:pb-16 md:pb-20 bg-white text-gray-900">
       <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-8 w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
