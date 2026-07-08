@@ -17,6 +17,8 @@ body {
   background-color: #ffffff;
   color: #1f2937;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .smooth-transition {
@@ -30,6 +32,7 @@ body {
   overflow: hidden;
 }
 
+/* Responsive scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -45,4 +48,26 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
