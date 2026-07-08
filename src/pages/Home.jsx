@@ -8,7 +8,7 @@ import Contact from '../components/Contact'
 
 const Home = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-14 sm:pt-16 md:pt-20">
       <Hero />
       <Stats />
       <About />
